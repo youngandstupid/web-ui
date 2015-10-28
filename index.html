@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title>Contacts Application</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet"/>
+    </head>
+    <body ng-app="ExampleApp">
+        <div class="container">
+            <div ng-view>
+            </div>
+            	<div ng-controller="ExampleController">
+            	</div>
+            	<label ng-model="firstUsername"></label>
+        </div>
+  
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.js"></script>
+        <script type="text/javascript" src ="src/app.js"></script>
+        <script type="text/javascript" src ="build/all.js"></script>
+        <script type="text/javascript" src ="bower_components/restangular/dist/restangular.min.js"></script>
+        <script type="text/javascript" src ="bower_components/underscore/underscore.js"></script>
+
+    </body>
+</html>

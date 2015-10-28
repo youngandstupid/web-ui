@@ -1,0 +1,67 @@
+{
+  "name": "web-ui",
+  "version": "1.0.0",
+  "description": "Young And Stupid",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/youngandstupid/web-ui/issues"
+  },
+  "homepage": "https://github.com/youngandstupid/web-ui#readme",
+  "scripts": {
+    "test": "gulp build && gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngandstupid/web-ui.git"
+  },
+  "engines": {
+    "node": ">=0.10 <=0.12"
+  },
+  "devDependencies": {
+    "body-parser": "^1.13.3",
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "chai-jquery": "^2.0.0",
+    "chai-things": "^0.2.0",
+    "commander": "^2.8.1",
+    "connect": "^3.4.0",
+    "connect-livereload": "^0.5.3",
+    "connect-modrewrite": "^0.8.2",
+    "cross-spawn-async": "^2.0.0",
+    "cucumber": "^0.5.0",
+    "del": "^1.2.0",
+    "es5-shim": "^4.1.10",
+    "gulp": "^3.9.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^3.0.0",
+    "gulp-inject": "^1.5.0",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-order": "^1.1.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "jshint-stylish": "^2.0.1",
+    "karma": "^0.13.7",
+    "karma-coverage": "^0.4.2",
+    "karma-jshint-preprocessor": "0.0.5",
+    "karma-jasmine": "~0.1",
+    "karma-jasmine-runner-reporter": "~0.1",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "jasmine": "^2.0.0",
+    "node-bourbon": "^4.2.3",
+    "phantomjs": "^1.9.17",
+    "q": "^1.4.1",
+    "run-sequence": "^1.1.2",
+    "serve-static": "^1.10.0",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0"
+  }
+}
